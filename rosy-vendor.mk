@@ -125,17 +125,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/rosy/proprietary/etc/permissions/telephonyservice.xml:system/etc/permissions/telephonyservice.xml \
     vendor/xiaomi/rosy/proprietary/etc/surround_sound_3mic/surround_sound_rec_5.1.cfg:system/etc/surround_sound_3mic/surround_sound_rec_5.1.cfg \
     vendor/xiaomi/rosy/proprietary/etc/surround_sound_3mic/surround_sound_rec_AZ.cfg:system/etc/surround_sound_3mic/surround_sound_rec_AZ.cfg \
-    vendor/xiaomi/rosy/proprietary/framework/ConnectivityExt.jar:system/framework/ConnectivityExt.jar \
-    vendor/xiaomi/rosy/proprietary/framework/QtiTelephonyServicelibrary.jar:system/framework/QtiTelephonyServicelibrary.jar \
-    vendor/xiaomi/rosy/proprietary/framework/cneapiclient.jar:system/framework/cneapiclient.jar \
-    vendor/xiaomi/rosy/proprietary/framework/com.qti.dpmframework.jar:system/framework/com.qti.dpmframework.jar \
-    vendor/xiaomi/rosy/proprietary/framework/com.qti.snapdragon.sdk.display.jar:system/framework/com.qti.snapdragon.sdk.display.jar \
-    vendor/xiaomi/rosy/proprietary/framework/com.quicinc.cne.jar:system/framework/com.quicinc.cne.jar \
-    vendor/xiaomi/rosy/proprietary/framework/dpmapi.jar:system/framework/dpmapi.jar \
-    vendor/xiaomi/rosy/proprietary/framework/embmslibrary.jar:system/framework/embmslibrary.jar \
-    vendor/xiaomi/rosy/proprietary/framework/imscmlibrary.jar:system/framework/imscmlibrary.jar \
-    vendor/xiaomi/rosy/proprietary/framework/qti-telephony-common.jar:system/framework/qti-telephony-common.jar \
-    vendor/xiaomi/rosy/proprietary/framework/tcmclient.jar:system/framework/tcmclient.jar \
     vendor/xiaomi/rosy/proprietary/lib/hw/audio.primary.msm8953.so:system/lib/hw/audio.primary.msm8953.so \
     vendor/xiaomi/rosy/proprietary/lib/hw/bluetooth.default.so:system/lib/hw/bluetooth.default.so \
     vendor/xiaomi/rosy/proprietary/lib/hw/camera.msm8953.so:system/lib/hw/camera.msm8953.so \
@@ -1141,18 +1130,6 @@ PRODUCT_COPY_FILES += \
 
 PRODUCT_PACKAGES += \
     libtime_genoff \
-    QtiTelephonyService \
-    TimeService \
-    datastatusnotification \
-    fastdormancy \
-    shutdownlistener \
-    CNEService \
-    com.qualcomm.location \
-    dpmserviceapp \
-    qcrilmsgtunnel \
-    colorservice \
-    ims \
-    imssettings \
     com.qti.location.sdk \
     izat.xt.srv \
     qcrilhook \
